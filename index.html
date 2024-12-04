@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratica Bootstrap Avançado</title>
+    <link rel="stylesheet" href="/arq/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Artists</h1>
+        </div>
+    </header>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="false">
+                <div class="carousel-inner" data-bs-ride="carousel" data-bs-interval="3000" >
+                <div class="carousel-item active">
+                <img src="/midia/atarashigakko.webp" class="d-block w-10" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Atarashii Gakko!</h5>
+                    <p>J-Pop, J-Rock</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/midia/bibi.webp" class="d-block w-10" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>BIBI(비비)</h5>
+                    <p>Pop, R&B, Soul</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/midia/lulilee.jpg" class="d-block w-10" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Luli Lee</h5>
+                    <p>Korean Rock/Alt, indie pop</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/midia/newjeans.png" class="d-block w-10" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>NewJeans</h5>
+                    <p>Girl Group, Kpop, R&B/indie </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/midia/stayc.jpg" class="d-block w-10" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>Stayc</h5>
+                    <p>Girl Group, Kpop, Pop </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/midia/wavetoearth.jpg" class="d-block w-10" alt="...">
+                <div class="carousel-caption d-md-block">
+                    <h5>wave to earth</h5>
+                    <p>Boy band, indie-pop, KR&B </p>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    <div class="container d-flex cards">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 d-flex flex-wrap align-items-stretch">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/midia/atarashigakko.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Atarashii Gakko!</h5>
+                        <p class="card-text">Atarashii Gakko!, também conhecido no Japão como Atarashii Gakkou no Leaders, é um grupo feminino japonês performático de canto e dança formado em 2015. O grupo musical é afiliado à ASOBISYSTEM. Atarashii Gakko! estreou no Japão em junho de 2017 pela distribuidora Victor Entertainment com o single Dokubana.</p>
+                    </div>
+                <div class="card-footer">
+                    <small class="text-muted">Última atualização à 5 minutos atrás</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/midia/bibi.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">BIBI(비비)</h5>
+                        <p class="card-text">BIBI, também conhecida como Kim Hyung-seo, é uma cantora, rapper e compositora sul-coreana. Ela se destaca no cenário musical pelo seu estilo que mescla R&B, rap e hip hop reggaeton, embora não seja exclusivamente ligada ao K-pop[</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Última atualização à 12 minutos atrás</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/midia/lulilee.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Luli Lee</h5>
+                        <p class="card-text">Luli Lee é uma artista conhecida na cena K-Indie, cuja música "Dive" combina elementos de nostalgia e esperança, refletindo um estilo musical melancólico e contemporâneo. Luli Lee é reconhecida por suas composições que capturam emoções complexas e evocativas, características marcantes de seu trabalho no cenário indie coreano</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Última atualização à 16 minutos atrás</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container d-flex cards">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 d-flex flex-wrap align-items-stretch">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/midia/newjeans.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">NewJeans</h5>
+                        <p class="card-text">NewJeans é um girl group sul-coreano formado pela ADOR, uma subsidiária da Hybe Corporation. O grupo é composto por cinco integrantes: Minji, Hanni, Danielle, Haerin e Hyein.</p>
+                    </div>
+                <div class="card-footer">
+                    <small class="text-muted">Última atualização à 22 minutos atrás</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/midia/stayc.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Stayc</h5>
+                        <p class="card-text">STAYC é um girl group sul-coreano formado pela High Up Entertainment. O grupo é formado por seis integrantes: Sumin, Sieun, Isa, Seeun, Yoon e J. O grupo estreou em 12 de novembro de 2020, com o lançamento de seu primeiro single álbum, Star to a Young Culture.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Última atualização à 26 minutos atrás</small>
+                </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card h-100">
+                    <img src="/midia/wavetoearth.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">wave to earth</h5>
+                        <p class="card-text">Wave to Earth é uma banda sul-coreana baseada na Coreia do Sul, Seul. O estilo musical da banda pode ser descrito como indie pop com alguma influência de jazz ou de estilos de lo-fi. É formada pelos membros Daniel Kim, Soonjong Cha e Donggyu Shin.</p>
+                </div>
+                <div class="card-footer">
+                    <small class="text-muted">Last updated 30 mins ago</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="/arq/bootstrap.bundle.min.js" ></script>
+</body>
+</html>

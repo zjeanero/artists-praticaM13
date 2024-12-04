@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: block;
+}
+
+header  {
+    background-color: royalblue;
+    color: #fff;
+    padding: 1em;
+}
+
+
+.carousel-item img {
+    width: 100%; /* ou uma largura fixa, ex: 600px */
+    height: 650px; /* ajuste conforme necessário */
+    object-fit: cover; /* para cortar e preencher o espaço */
+}
+
+.cards {
+    padding: 32px;
+    align-items: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    margin-right: 16px;
+}
+
+.card img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1920px) { 
+
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .card img {
+        display: block;
+        justify-content: space-between;
+        max-width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1em;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .card {
+        padding: 16px;
+    }
+}
+
